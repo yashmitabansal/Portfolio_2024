@@ -1,0 +1,42 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.yassuLogo {
+    margin-left: 100px;
+    font-size: x-large;
+
+}
+
+.navbar a:hover {
+    color: #8FC9F9 !important;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid #64b5f8;
+}
+
+@media (max-width: 990px) {
+
+    .yassuLogo {
+        margin-left: 50px;
+    }
+
+    .navbar-nav {
+        margin-left: 55px;
+    }
+}

@@ -1,0 +1,14 @@
+.card {
+    width: 330px;
+}
+
+.ServiceBtn {
+    border: 2px solid #8FC9F9;
+    color: #8FC9F9;
+    font-weight: 500;
+}
+
+.ServiceBtn:hover {
+    background-color: #8FC9F9;
+    color: black;
+}

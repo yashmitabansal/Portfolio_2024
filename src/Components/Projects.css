@@ -1,0 +1,23 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+@media  (max-width: 870px){
+
+    .card-container{
+        display: grid;
+        grid-template-columns: auto  auto;
+        justify-content: center;
+    } 
+}
+@media  (max-width: 739px){
+
+    .card-container{
+        display: grid;
+        grid-template-columns: auto;
+        /* align-items: center; */
+        justify-content: center;
+    
+    } 
+}
